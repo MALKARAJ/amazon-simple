@@ -1,0 +1,30 @@
+.hidden {
+  display: none;
+}
+
+.flex-container {
+  display: flex;
+
+  font-size: 15px;
+  text-align: center;
+}
+.flex-item-left {
+  padding: 10px;
+  flex: 10%;
+
+  border-style: solid;
+  text-align: center;
+  border-color: black;
+}
+.flex-item-right {
+  padding: 10px;
+
+  flex: 50%;
+
+  border-style: solid;
+  border-color: black;
+}
+
+.active {
+  color: blue;
+}
